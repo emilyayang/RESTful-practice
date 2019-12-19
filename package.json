@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest-webpack",
+    "test": "jest",
     "start": "nodemon server/index.js",
     "build": "webpack -w -d",
     "seed": "node database/seed.js"
